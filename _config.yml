@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Portfolio
+title: HC Portfolio
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: hchen-12
-minimal_mistakes_skin: air #default
+minimal_mistakes_skin: plum #default
 search: true
 
 # Build settings
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Holly Chen"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a mechanical engineer interested in product design and development with special focus on biomechanical applications"
+  bio    : "Hello, my name is Holly and I am a mechanical engineer interested in product development with a special focus on biomechanical applications"
   links:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
@@ -74,17 +74,17 @@ author:
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
 
 defaults:
   # _posts
